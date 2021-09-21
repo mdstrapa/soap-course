@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.2 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2021.09.20 às 01:51:10 PM GMT-03:00 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://marcosoft.com">
+    <schemaBindings map="false">
+      <package name="com.marcosoft"/>
+    </schemaBindings>
+    <bindings scd="tns:GetCustomerDetailRequest">
+      <class ref="com.marcosoft.GetCustomerDetailRequest"/>
+    </bindings>
+    <bindings scd="tns:GetCustomerDetailResponse">
+      <class ref="com.marcosoft.GetCustomerDetailResponse"/>
+    </bindings>
+    <bindings scd="~tns:CustomerDetail">
+      <class ref="com.marcosoft.CustomerDetail"/>
+    </bindings>
+    <bindings scd="tns:GetAllCustomerDetailRequest">
+      <class ref="com.marcosoft.GetAllCustomerDetailRequest"/>
+    </bindings>
+    <bindings scd="tns:GetAllCustomerDetailResponse">
+      <class ref="com.marcosoft.GetAllCustomerDetailResponse"/>
+    </bindings>
+    <bindings scd="tns:DeleteCustomerRequest">
+      <class ref="com.marcosoft.DeleteCustomerRequest"/>
+    </bindings>
+    <bindings scd="tns:DeleteCustomerResponse">
+      <class ref="com.marcosoft.DeleteCustomerResponse"/>
+    </bindings>
+    <bindings scd="~tns:Status">
+      <typesafeEnumClass ref="com.marcosoft.Status"/>
+    </bindings>
+  </bindings>
+</bindings>
+
